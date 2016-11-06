@@ -1,6 +1,7 @@
 /**
  * Flym
  * <p/>
+ * Copyright (c) 2016–2020 Thekkathir IT Team
  * Copyright (c) 2012-2015 Frederic Julian
  * <p/>
  * This program is free software: you can redistribute it and/or modify
@@ -47,12 +48,15 @@ public class AboutActivity extends BaseActivity {
         PackageManager manager = this.getPackageManager();
         try {
             PackageInfo info = manager.getPackageInfo(this.getPackageName(), 0);
-            title = "Flym version " + info.versionName;
+            title = "Theekkathir Newsreader version " + info.versionName;
         } catch (NameNotFoundException unused) {
-            title = "Flym";
+            title = "Theekkathir";
         }
         TextView titleView = (TextView) findViewById(R.id.about_title);
         titleView.setText(title);
+
+        TextView copyrightView = (TextView) findViewById(R.id.about_copyright);
+        copyrightView.setText(Html.fromHtml(getString(R.string.about_us_copyright)));
 
         TextView contentView = (TextView) findViewById(R.id.about_content);
         contentView.setText(Html.fromHtml(getString(R.string.about_us_content)));

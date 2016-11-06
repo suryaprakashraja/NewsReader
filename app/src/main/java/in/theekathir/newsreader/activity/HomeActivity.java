@@ -50,6 +50,7 @@ import in.theekathir.newsreader.fragment.EntriesListFragment;
 import in.theekathir.newsreader.parser.OPML;
 import in.theekathir.newsreader.provider.FeedData.EntryColumns;
 import in.theekathir.newsreader.provider.FeedData.FeedColumns;
+import in.theekathir.newsreader.provider.FeedDataContentProvider;
 import in.theekathir.newsreader.service.AutoRefreshService;
 import in.theekathir.newsreader.service.FetcherService;
 import in.theekathir.newsreader.utils.PrefUtils;
@@ -158,6 +159,7 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, PERMISSIONS_REQUEST_IMPORT_FROM_OPML);
             }
         }
+        FeedDataContentProvider.addFeed(this, "http://theekkathir.in/feed", " சமீபத்தியவை", true);
     }
 
     @Override

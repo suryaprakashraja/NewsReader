@@ -23,14 +23,12 @@
         android:layout_marginTop="5dip"/>
 
     <TextView
-        android:id="@+id/about_copyright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="5dip"
         android:layout_marginTop="5dip"
-       />
-    <!--android:text="@string/about_us_copyright" />-->
+        android:text="@string/about_us_copyright" />
 
     <TextView
         android:id="@+id/about_content"

@@ -9,17 +9,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   id="svg2"
+   width="56.18821mm"
+   height="54.932026mm"
+   viewBox="0 0 199.09208 194.64104"
+   id="svg4145"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="item_favorite.svg"
-   inkscape:export-filename="/home/moa/FeedEx/res/drawable-xhdpi/item_favorite.png"
-   inkscape:export-xdpi="27"
-   inkscape:export-ydpi="27">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="item_favorite.svg">
   <defs
-     id="defs4" />
+     id="defs4147">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3405">
+      <rect
+         style="fill:none;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect3407"
+         width="237.961"
+         height="174.19501"
+         x="-272.8222"
+         y="764.17896" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3409">
+      <rect
+         style="fill:none;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect3411"
+         width="237.961"
+         height="174.19501"
+         x="-302.95374"
+         y="1325.9094" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,19 +48,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="102.5295"
-     inkscape:cy="616.50506"
+     inkscape:zoom="0.35"
+     inkscape:cx="355.97462"
+     inkscape:cy="-302.67948"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="719"
-     inkscape:window-x="412"
-     inkscape:window-y="1080"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
-     id="metadata7">
+     id="metadata4150">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -51,18 +76,19 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Calque 1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(408.11747,-35.041689)">
     <path
-       style="fill:#ebd805;fill-opacity:1;stroke:none"
-       d="m 151.90646,311.94375 182.37925,-1.01015 c 5.53992,-0.0307 10,4.46 10,10 l 0,177.14285 c 0,5.54 -12.21894,9.95073 -16.06092,5.95939 l -74.25597,-77.14286 c -3.84197,-3.99134 -18.11523,-17.87727 -22.16388,-21.65881 l -84.84771,-79.24981 c -4.04865,-3.78154 -0.59068,-14.00992 4.94923,-14.04061 z"
+       style="fill:#f40332;fill-opacity:1;stroke:none"
+       d="m -401.40464,36.051995 182.37925,-1.01015 c 5.53992,-0.0307 10,4.46 10,10 l 0,177.142855 c 0,5.54 -12.21894,9.95073 -16.06092,5.95939 l -74.25597,-77.14286 c -3.84197,-3.99134 -18.11523,-17.87728 -22.16388,-21.65882 l -84.84771,-79.249805 c -4.04865,-3.78154 -0.59068,-14.00992 4.94923,-14.04061 z"
        id="rect2985"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" />
     <path
        sodipodi:type="star"
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       style="fill:#dededc;fill-opacity:1;stroke:none"
        id="path3756"
        sodipodi:sides="5"
        sodipodi:cx="68.690376"
@@ -77,6 +103,6 @@
        d="M 109.09648,458.3925 68.706786,437.183 28.33738,458.43108 36.027706,413.46411 3.3447515,381.63654 l 45.1425745,-6.58163 20.170229,-40.9186 20.20932,40.89931 45.148845,6.53849 -32.65253,31.85878 z"
        inkscape:transform-center-x="0.0081772383"
        inkscape:transform-center-y="-5.3259877"
-       transform="matrix(0.80673738,0,0,0.81307734,229.95105,46.29521)" />
+       transform="matrix(0.80673738,0,0,0.81307734,-323.36005,-229.59654)" />
   </g>
 </svg>
