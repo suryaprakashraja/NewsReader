@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
-    <include layout="@layout/view_toolbar"/>
+    <include layout="@layout/view_toolbar" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,9 +21,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
                 android:text="@string/google_news_indicator"
-                android:textAppearance="?android:attr/textAppearanceMedium"/>
+                android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <CheckBox
+            <!--<CheckBox
                 android:id="@+id/cb_top_stories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -76,8 +76,632 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/google_news_custom_topic"
                 android:hint="@string/google_news_custom_topic"
-                android:singleLine="true"
-                android:layout_marginTop="15dp" />
+                android:maxLines="1"
+                android:layout_marginTop="15dp" />-->
+
+            <CheckBox
+                android:id="@+id/politics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/politics" />
+
+            <CheckBox
+                android:id="@+id/editor_picks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editor_picks" />
+
+            <CheckBox
+                android:id="@+id/srilanka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/srilanka" />
+
+            <CheckBox
+                android:id="@+id/international"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/international" />
+
+            <CheckBox
+                android:id="@+id/opinion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opinion" />
+
+            <CheckBox
+                android:id="@+id/article"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/article" />
+
+            <CheckBox
+                android:id="@+id/cartoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cartoon" />
+
+            <CheckBox
+                android:id="@+id/santhegam_samikannu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/santhegam_samikannu" />
+
+            <CheckBox
+                android:id="@+id/editorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editorial" />
+
+            <CheckBox
+                android:id="@+id/interview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/interview" />
+
+            <CheckBox
+                android:id="@+id/letter_to_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_to_editor" />
+
+            <CheckBox
+                android:id="@+id/education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/education" />
+
+            <CheckBox
+                android:id="@+id/cinema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cinema" />
+
+            <CheckBox
+                android:id="@+id/specials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specials" />
+
+            <CheckBox
+                android:id="@+id/science_technology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/science_technology" />
+
+            <CheckBox
+                android:id="@+id/literature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/literature" />
+
+            <CheckBox
+                android:id="@+id/computer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/computer" />
+
+            <CheckBox
+                android:id="@+id/books"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/books" />
+
+            <CheckBox
+                android:id="@+id/economics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/economics" />
+
+            <CheckBox
+                android:id="@+id/sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sports" />
+
+            <CheckBox
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info" />
+
+            <CheckBox
+                android:id="@+id/nation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nation" />
+
+            <CheckBox
+                android:id="@+id/technology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/technology" />
+
+            <CheckBox
+                android:id="@+id/court"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/court" />
+
+            <CheckBox
+                android:id="@+id/facebook_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_ride" />
+
+            <CheckBox
+                android:id="@+id/general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/general" />
+
+            <CheckBox
+                android:id="@+id/medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medicine" />
+
+            <CheckBox
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state" />
+
+            <CheckBox
+                android:id="@+id/assam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/assam" />
+
+            <CheckBox
+                android:id="@+id/andaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/andaman" />
+
+            <CheckBox
+                android:id="@+id/haryana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/haryana" />
+
+            <CheckBox
+                android:id="@+id/arunachalpradesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arunachalpradesh" />
+
+            <CheckBox
+                android:id="@+id/andhrapradesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/andhrapradesh" />
+
+            <CheckBox
+                android:id="@+id/himachal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/himachal" />
+
+            <CheckBox
+                android:id="@+id/uttarakhand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uttarakhand" />
+
+            <CheckBox
+                android:id="@+id/uttarpradesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uttarpradesh" />
+
+            <CheckBox
+                android:id="@+id/odisha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/odisha" />
+
+            <CheckBox
+                android:id="@+id/karnataka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/karnataka" />
+
+            <CheckBox
+                android:id="@+id/bengaluru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bengaluru" />
+
+            <CheckBox
+                android:id="@+id/gujarat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gujarat" />
+
+            <CheckBox
+                android:id="@+id/kerala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kerala" />
+
+            <CheckBox
+                android:id="@+id/goa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goa" />
+
+            <CheckBox
+                android:id="@+id/chandigarh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chandigarh" />
+
+            <CheckBox
+                android:id="@+id/chhattisgarh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chhattisgarh" />
+
+            <CheckBox
+                android:id="@+id/sikkim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sikkim" />
+
+            <CheckBox
+                android:id="@+id/jammuandkashmir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jammuandkashmir" />
+
+            <CheckBox
+                android:id="@+id/jharkhand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jharkhand" />
+
+            <CheckBox
+                android:id="@+id/tamilnadu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tamilnadu" />
+
+            <CheckBox
+                android:id="@+id/chennai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chennai" />
+
+            <CheckBox
+                android:id="@+id/dadra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dadra" />
+
+            <CheckBox
+                android:id="@+id/damananddiu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/damananddiu" />
+
+            <CheckBox
+                android:id="@+id/tripura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tripura" />
+
+            <CheckBox
+                android:id="@+id/delhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delhi" />
+
+            <CheckBox
+                android:id="@+id/telangana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telangana" />
+
+            <CheckBox
+                android:id="@+id/nagaland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nagaland" />
+
+            <CheckBox
+                android:id="@+id/punjab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/punjab" />
+
+            <CheckBox
+                android:id="@+id/bihar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bihar" />
+
+            <CheckBox
+                android:id="@+id/puducherry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/puducherry" />
+
+            <CheckBox
+                android:id="@+id/maharashtra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/maharashtra" />
+
+            <CheckBox
+                android:id="@+id/mumbai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mumbai" />
+
+            <CheckBox
+                android:id="@+id/manipur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manipur" />
+
+            <CheckBox
+                android:id="@+id/madhyapradesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madhyapradesh" />
+
+            <CheckBox
+                android:id="@+id/mizoram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mizoram" />
+
+            <CheckBox
+                android:id="@+id/meghalaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meghalaya" />
+
+            <CheckBox
+                android:id="@+id/westbengal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/westbengal" />
+
+            <CheckBox
+                android:id="@+id/rajasthan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rajasthan" />
+
+            <CheckBox
+                android:id="@+id/lakshadweep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lakshadweep" />
+
+            <CheckBox
+                android:id="@+id/districts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/districts" />
+
+            <CheckBox
+                android:id="@+id/ariyalur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ariyalur" />
+
+            <CheckBox
+                android:id="@+id/ramanathapuram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ramanathapuram" />
+
+            <CheckBox
+                android:id="@+id/erode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/erode" />
+
+            <CheckBox
+                android:id="@+id/cuddalore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cuddalore" />
+
+            <CheckBox
+                android:id="@+id/kanyakumari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kanyakumari" />
+
+            <CheckBox
+                android:id="@+id/karur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/karur" />
+
+            <CheckBox
+                android:id="@+id/kanchipuram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kanchipuram" />
+
+            <CheckBox
+                android:id="@+id/krishnagiri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/krishnagiri" />
+
+            <CheckBox
+                android:id="@+id/coimbatore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coimbatore" />
+
+            <CheckBox
+                android:id="@+id/sivaganga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sivaganga" />
+
+            <CheckBox
+                android:id="@+id/salem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salem" />
+
+            <CheckBox
+                android:id="@+id/thanjavur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thanjavur" />
+
+            <CheckBox
+                android:id="@+id/dharmapuri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dharmapuri" />
+
+            <CheckBox
+                android:id="@+id/dindigul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dindigul" />
+
+            <CheckBox
+                android:id="@+id/trichy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trichy" />
+
+            <CheckBox
+                android:id="@+id/tirunelveli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tirunelveli" />
+
+            <CheckBox
+                android:id="@+id/tirupur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tirupur" />
+
+            <CheckBox
+                android:id="@+id/tiruvannamalai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiruvannamalai" />
+
+            <CheckBox
+                android:id="@+id/tiruvallur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiruvallur" />
+
+            <CheckBox
+                android:id="@+id/tiruvarur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tiruvarur" />
+
+            <CheckBox
+                android:id="@+id/thoothukudi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thoothukudi" />
+
+            <CheckBox
+                android:id="@+id/theni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/theni" />
+
+            <CheckBox
+                android:id="@+id/nagapattinam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nagapattinam" />
+
+            <CheckBox
+                android:id="@+id/namakkal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/namakkal" />
+
+            <CheckBox
+                android:id="@+id/nilgiris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nilgiris" />
+
+            <CheckBox
+                android:id="@+id/pudukkottai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pudukkottai" />
+
+            <CheckBox
+                android:id="@+id/perambalur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/perambalur" />
+
+            <CheckBox
+                android:id="@+id/pollachi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pollachi" />
+
+            <CheckBox
+                android:id="@+id/madurai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madurai" />
+
+            <CheckBox
+                android:id="@+id/virudhunagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/virudhunagar" />
+
+            <CheckBox
+                android:id="@+id/viluppuram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viluppuram" />
+
+            <CheckBox
+                android:id="@+id/vellore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vellore" />
+
+            <CheckBox
+                android:id="@+id/business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/business" />
+
+            <CheckBox
+                android:id="@+id/election"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/election" />
+
+            <CheckBox
+                android:id="@+id/whatsapp_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/whatsapp_ride" />
+
+            <CheckBox
+                android:id="@+id/archive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/archive" />
 
         </LinearLayout>
 
