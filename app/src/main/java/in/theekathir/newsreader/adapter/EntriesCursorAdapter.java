@@ -113,7 +113,8 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
         if (mainImgUrl != null) {
             Glide.with(context).load(mainImgUrl).centerCrop().placeholder(letterDrawable).error(letterDrawable).into(holder.mainImgView);
         } else {
-            Glide.clear(holder.mainImgView);
+            //Glide.clear(holder.mainImgView);
+            Glide.with(holder.mainImgView.getContext()).clear(holder.mainImgView);
             holder.mainImgView.setImageDrawable(letterDrawable);
         }
 
